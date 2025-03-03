@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2ab7322-ae18-45b6-9ce9-d236b852697d" name="Changes" comment="Init case, solution and test file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/easy/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/easy/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/easy/MajorityElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/easy/RemoveElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/medium/GroupAnagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GroupAnagram.executor": "Debug",
     "JUnit.TwoSumTest.twoSum (1).executor": "Debug",
     "JUnit.TwoSumTest.twoSum (2).executor": "Run",
     "JUnit.TwoSumTest.twoSum.executor": "Debug",
@@ -82,11 +80,24 @@
       <recent name="org.example.easy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example.easy" />
       <recent name="org.example.medium" />
+      <recent name="org.example.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TwoSumTest.twoSum">
+  <component name="RunManager" selected="Application.GroupAnagram">
+    <configuration name="GroupAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.medium.GroupAnagram" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoSumTest.twoSum (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -153,6 +164,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroupAnagram" />
         <item itemvalue="JUnit.TwoSumTest.twoSum" />
         <item itemvalue="JUnit.TwoSumTest.twoSum (1)" />
       </list>
@@ -232,6 +244,16 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/medium/GroupAnagram.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/medium/GroupAnagram.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
