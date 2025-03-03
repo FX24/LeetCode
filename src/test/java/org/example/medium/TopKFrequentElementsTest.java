@@ -13,7 +13,7 @@ class TopKFrequentElementsTest {
 
     TopKFrequentElements main = new TopKFrequentElements();
 
-    public static Stream<Arguments> twoSum() {
+    public static Stream<Arguments> question() {
         return Stream.of(
                 arguments(new int[] {1,2,2,3,3,3}, 2, new int[]{2,3})
         );
@@ -21,7 +21,7 @@ class TopKFrequentElementsTest {
 
     @ParameterizedTest
     @MethodSource
-    void twoSum(int[] input, int target, int[] expected) {
+    void question(int[] input, int target, int[] expected) {
         assertArrayEquals(main.solution(input, target), expected);
     }
 }
