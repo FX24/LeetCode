@@ -14,7 +14,7 @@ public class SampleTask {
         int result = solution(input);
         int expected = 1;
 
-        System.out.println("Result : " + result);
+        System.out.println("Result   : " + result);
         System.out.println("Expected : " + expected);
     }
 }
