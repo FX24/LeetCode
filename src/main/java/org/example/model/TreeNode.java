@@ -1,6 +1,8 @@
 package org.example.model;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 public class TreeNode {
@@ -46,5 +48,31 @@ public class TreeNode {
         }
 
         return root;
+    }
+
+    public List<Integer> toArray() {
+        List<Integer> result = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(this);
+
+        while (!queue.isEmpty()) {
+            TreeNode current = queue.poll();
+            if (current != null) {
+                result.add(current.val);
+                queue.offer(current.left);
+                queue.offer(current.right);
+            } else {
+                result.add(null);
+            }
+        }
+
+        // Remove trailing nulls
+        int i = result.size() - 1;
+        while (i >= 0 && result.get(i) == null) {
+            result.remove(i);
+            i--;
+        }
+
+        return result;
     }
 }
